@@ -1,0 +1,60 @@
+.github {
+  padding: 25px 13px 15px 13px;
+  background-color: #1e1e1e;
+}
+.github i {
+  color: #552875;
+  padding-right: 7px;
+}
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+}
+.github img {
+  width: 300px;
+  height: 300px;
+}
+.linkedin img {
+  width: 200px;
+  height: 200px;
+  padding-top: 75px;
+}
+.me-contact {
+  background-color: #1e1e1e;
+}
+.contact-second {
+  display: flex;
+  justify-content: space-evenly;
+}
+.codewars img {
+  width: 400px;
+  height: 130px;
+  padding-left: 40px;
+}
+.explain {
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.explain,
+.click {
+  text-align: center;
+}
+.click {
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.contact-info {
+  color: white;
+  padding-left: 70px;
+}
+.contact-info h1 {
+  font-size: 25px;
+  padding-bottom: 17px;
+}
+.contact-info h2 {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
