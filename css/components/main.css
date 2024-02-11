@@ -1,0 +1,76 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 4fr 20fr;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  white-space: nowrap;
+}
+.leftbar {
+  grid-column: 1;
+  color: #e0e4e8;
+  background-color: #24292e;
+  padding: 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.leftbar-icon i {
+  padding: 10px 0px;
+  font-size: 22px;
+}
+
+.filetap {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding: 30px 10px 0px 17px;
+  background-color: #252526;
+  font-size: 14px;
+  color: #619c78;
+}
+.js i {
+  color: #ffca29;
+}
+.html i {
+  color: #e44d27;
+}
+.css i {
+  color: #42a5f5;
+}
+.git i {
+  color: #552875;
+}
+.openfile {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.title {
+  padding-bottom: 5px;
+}
+.title i {
+  padding-right: 3px;
+  font-size: 18px;
+}
+
+.js {
+  padding: 12px 0px;
+}
+.html {
+  padding-bottom: 12px;
+}
+.css {
+  padding-bottom: 12px;
+}
+.js i,
+.html i,
+.css i,
+.git i {
+  padding-right: 6px;
+}
+.main-page {
+  display: grid;
+  grid-template-rows: 1fr 27fr;
+}

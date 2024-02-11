@@ -1,0 +1,66 @@
+body {
+  display: grid;
+  grid-template-rows: 1fr 1fr 20fr 1fr;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.topbar {
+  display: flex;
+  background-color: #1f2428;
+  border-bottom: 1px black solid;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.topbar span {
+  color: white;
+}
+.sumin {
+  margin: 10px;
+  font: 18px;
+  color: white;
+}
+.vsc img {
+  width: 26px;
+  height: 26px;
+  margin: 10px;
+}
+.topleft {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.color-icons {
+  display: flex;
+}
+.red,
+.yellow,
+.green {
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  margin: 10px 5px;
+}
+.red {
+  background-color: #ec6a5e;
+}
+.yellow {
+  background-color: #f4be4f;
+}
+.green {
+  background-color: #61c554;
+  margin-left: 5px;
+}
+.file {
+  margin-right: 5px;
+  font-size: 13px;
+}

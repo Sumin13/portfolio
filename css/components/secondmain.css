@@ -1,0 +1,86 @@
+.main-page__bar {
+  display: flex;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+  background-color: #2d2d2d;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #619c78;
+}
+.main-js i {
+  color: #ffca29;
+  padding-right: 7px;
+}
+.main-page__me {
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  white-space: wrap;
+
+  width: 100%;
+}
+.main-js {
+  padding: 25px 13px 15px 13px;
+  background-color: #1e1e1e;
+}
+.htmlcopy {
+  display: inline-block;
+  text-align: left;
+  padding: 40px;
+  white-space: wrap;
+
+  width: 100%;
+}
+.htmlcopy h1 {
+  font-size: 40px;
+}
+.htmlcopy > div {
+  margin-bottom: 17px; /* Adjust the value as needed */
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.htmlcopy h1 {
+  color: #619c78;
+  overflow: hidden;
+  border-right: 2px solid;
+  white-space: nowrap;
+  animation: typing 2.5s steps(20, end);
+}
+.htmlcopy h2 {
+  font-size: 25px;
+  margin: 10px 0px;
+}
+.mywork {
+  color: #619c78;
+  font-size: 27px;
+}
+.htmlcopy h3 {
+  margin: 10px;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.blinking {
+  animation: blink 1s infinite;
+}

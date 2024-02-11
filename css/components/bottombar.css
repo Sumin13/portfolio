@@ -1,0 +1,28 @@
+.bottombar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: #24292e;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  overflow: hidden;
+}
+.bottomright {
+  padding-right: 20px;
+}
+
+.bottomright span {
+  padding-left: 7px;
+}
+.bottomleft span {
+  padding-left: 7px;
+}
