@@ -2,7 +2,6 @@
   display: flex;
   grid-row-start: 1;
   grid-row-end: 2;
-
   background-color: #2d2d2d;
   align-items: center;
   font-family: "Roboto Slab", serif;
@@ -18,9 +17,8 @@
 .main-page__me {
   background-color: #1e1e1e;
   color: white;
-  text-align: center;
-  white-space: wrap;
-
+  /* text-align: center; */
+  /* white-space: wrap; */
   width: 100%;
 }
 .main-js {
@@ -31,15 +29,12 @@
   display: inline-block;
   text-align: left;
   padding: 40px;
-  white-space: wrap;
-
-  width: 100%;
 }
 .htmlcopy h1 {
-  font-size: 40px;
+  font-size: 20px;
 }
 .htmlcopy > div {
-  margin-bottom: 17px; /* Adjust the value as needed */
+  margin-bottom: 17px;
 }
 @keyframes typing {
   from {
@@ -58,15 +53,16 @@
   animation: typing 2.5s steps(20, end);
 }
 .htmlcopy h2 {
-  font-size: 25px;
+  font-size: 17px;
   margin: 10px 0px;
 }
 .mywork {
   color: #619c78;
-  font-size: 27px;
+  font-size: 17px;
 }
 .htmlcopy h3 {
   margin: 10px;
+  opacity: 0.6;
 }
 
 @keyframes blink {
@@ -80,7 +76,9 @@
     opacity: 1;
   }
 }
-
 .blinking {
   animation: blink 1s infinite;
+}
+.main-page__me .htmlcopy div {
+  margin-bottom: 10px; /* Add margin at the bottom of each div element inside .htmlcopy */
 }

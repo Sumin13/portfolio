@@ -7,7 +7,8 @@ main {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  white-space: nowrap;
+
+  /* white-space: nowrap; */
 }
 .leftbar {
   grid-column: 1;
@@ -30,6 +31,7 @@ main {
   background-color: #252526;
   font-size: 14px;
   color: #619c78;
+  min-width: 135px;
 }
 .js i {
   color: #ffca29;

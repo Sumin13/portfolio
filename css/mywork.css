@@ -1,0 +1,69 @@
+.main-css {
+  padding: 25px 13px 15px 13px;
+  background-color: #1e1e1e;
+}
+.main-css i {
+  color: #42a5f5;
+  padding-right: 7px;
+}
+.suminwork {
+  background-color: #1e1e1e;
+}
+.todo img {
+  margin: 30px;
+  width: 400px;
+  height: 200px;
+}
+.game img {
+  margin: 30px;
+  width: 400px;
+  height: 200px;
+}
+.suminwork-top {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.suminwork h3 {
+  padding-top: 17px;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+}
+.suminwork-top .todo img,
+.suminwork-top .game img {
+  transition: transform 0.3s ease;
+}
+
+.suminwork-top .todo img:hover,
+.suminwork-top .game img:hover {
+  transform: scale(1.1);
+}
+.aboutme {
+  opacity: 0.6;
+}
+.topworkdes {
+  display: flex;
+  justify-content: space-around;
+}
+.topleftwork button,
+.toprightwork button {
+  display: inline-block;
+  background-color: #609b78; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.topleftwork button:hover,
+.toprightwork button:hover {
+  background-color: #45a049; /* Darker Green */
+}

@@ -1,16 +1,15 @@
 body {
   display: grid;
   grid-template-rows: 1fr 1fr 20fr 1fr;
-  height: 100vh;
+  height: 100vw;
   width: 100vw;
-  overflow: hidden;
 }
 .topbar {
   display: flex;
   background-color: #1f2428;
   border-bottom: 1px black solid;
   justify-content: space-between;
-  position: fixed;
+
   align-items: center;
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
@@ -63,4 +62,10 @@ body {
 .file {
   margin-right: 5px;
   font-size: 13px;
+}
+#nameInput {
+  display: block;
+}
+#welcomeMessage {
+  display: none;
 }

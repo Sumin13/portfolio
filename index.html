@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link
@@ -10,133 +9,20 @@
       rel="stylesheet"
     />
 
-    <title>Sumin's Portfolio</title>
+    <title>Document</title>
   </head>
-  <body>
-    <div class="topbar">
-      <div class="topleft">
-        <div class="vsc">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"
-          />
-        </div>
-        <div class="file">File</div>
-        <div class="file">Edit</div>
-        <div class="file">View</div>
-        <div class="file">Go</div>
-        <div class="file">Run</div>
-      </div>
-      <div class="sumin">Sumin's Visual Studio Code</div>
-      <div class="color-icons">
-        <div class="red"></div>
-        <div class="yellow"></div>
-        <div class="green"></div>
-      </div>
+  <body class="firstbody">
+    <div id="nameInput">
+      <h1>Welcome to my VSC</h1>
+      <label for="name">Please Write Your Name</label>
+      <input type="text" id="name" />
+      <button onclick="showWelcomeMessage()">Enter</button>
     </div>
-    <main>
-      <div class="leftbar">
-        <div class="lefttop">
-          <div class="leftbar-icon">
-            <i class="fa-regular fa-clipboard"></i>
-          </div>
-          <div class="leftbar-icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </div>
-          <div class="leftbar-icon">
-            <i class="fa-solid fa-code-merge"></i>
-          </div>
-          <div class="leftbar-icon">
-            <i class="fa-solid fa-circle-play"></i>
-          </div>
-          <div class="leftbar-icon">
-            <a href="contact.html">
-              <i class="fa-regular fa-address-book"></i
-            ></a>
-          </div>
-        </div>
-      </div>
-      <div class="filetap">
-        <div class="openfile">Open Edit</div>
-        <div class="portfolio">
-          <div class="title">
-            <i class="fa-solid fa-arrow-down"></i>PORTFOLIO
-          </div>
-
-          <div class="js"><i class="fa-brands fa-js"></i>me.js</div>
-          <div class="html"><i class="fa-brands fa-html5"></i>studied.html</div>
-          <div class="css">
-            <a href="mywork.html"
-              ><i class="fa-brands fa-css3-alt"></i>mywork.css</a
-            >
-          </div>
-          <div class="git"><i class="fa-brands fa-github"></i>mygit</div>
-        </div>
-      </div>
-
-      <div class="main-page">
-        <div class="main-page__bar">
-          <div class="main-js"><i class="fa-brands fa-js"></i>me.js</div>
-        </div>
-
-        <div class="main-page__me">
-          <div class="htmlcopy">
-            <div>&lt;!DOCTYPE html&gt;</div>
-            <div>&lt;html lang="en"&gt;</div>
-            <div>&lt;head&gt;</div>
-            <div>
-              &lt;title&gt;
-              <h1>Welcome to Sumin's VSC.</h1>
-              <h2>👩‍🎓A Front-end Trainee📚</h2>
-              &lt;/title&gt;
-            </div>
-            &lt;/head&gt;
-            <div></div>
-            &lt;body&gt;
-            <h3>
-              <div>Hi All!</div>
-              <div>Thanks for taking time to visit my website.</div>
-
-              <div>
-                started studying computer programming from July 2023 and I am
-                still learning.
-              </div>
-              <div>
-                But enjoying every moment of it. To me, every session feels like
-                a challenge but I love the feeling you get when you get the
-                right code and when it works! This is my favorite moment of the
-                day.
-              </div>
-            </h3>
-            <h4>Career -------</h4>
-            <h5>
-              If you want to check out my recent works, come check
-              <a href="mywork.html"
-                ><span class="mywork" id="blink">mywork.css</span></a
-              >
-            </h5>
-            &lt;/body&gt; &lt;/html&gt;
-          </div>
-        </div>
-      </div>
-    </main>
-    <div class="bottombar">
-      <div class="bottomleft">
-        <span class="main"><i class="fa-solid fa-code-merge"></i> main* </span>
-        <span class="x"><i class="fa-solid fa-x"></i> 0 </span>
-        <span class="warning"
-          ><i class="fa-solid fa-triangle-exclamation"></i> 0</span
-        >
-      </div>
-      <div class="bottomright">
-        <span class="html">HTML</span>
-        <span class="check"><i class="fa-solid fa-check"></i>Prettier</span>
-        <span class="bell"><i class="fa-regular fa-bell"></i></span>
-      </div>
+    <div class="countdown"></div>
+    <div id="welcomeMessage">
+      <h1 id="welcomeHeader"></h1>
+      <button onclick="goToNextPage()">Let's start!</button>
     </div>
-    <script
-      src="https://kit.fontawesome.com/cea21fa77a.js"
-      crossorigin="anonymous"
-    ></script>
     <script src="app.js"></script>
   </body>
 </html>

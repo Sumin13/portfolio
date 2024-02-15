@@ -1,0 +1,43 @@
+.studied {
+  background-color: #1e1e1e;
+  padding: 20px;
+}
+.study-html {
+  padding: 25px 13px 15px 13px;
+  background-color: #1e1e1e;
+}
+.study-html i {
+  color: #e44d27;
+  padding-right: 7px;
+}
+
+.boximg img {
+  width: 350px;
+  height: 130px;
+  box-shadow: 0 4px 8px #2d2d2d; /* Add subtle shadow effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding-right: 20px;
+}
+
+.boximg img:hover {
+  transform: scale(1.05); /* Scale up image on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+.studied-heading {
+  text-align: center;
+  color: white;
+  font-size: 26px;
+  padding-bottom: 10px;
+}
+.studybox {
+  display: flex;
+  padding: 20px;
+  color: white;
+}
+.boxdes {
+  padding-top: 30px;
+}
+.boxdes :first-child {
+  font-size: 20px;
+  padding-bottom: 7px;
+}
