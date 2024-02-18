@@ -46,23 +46,17 @@
 }
 
 .htmlcopy h1 {
+  padding-bottom: 20px;
   color: #619c78;
   overflow: hidden;
   border-right: 2px solid;
   white-space: nowrap;
-  animation: typing 2.5s steps(20, end);
+  animation: typing 2.5s steps(20);
 }
-.htmlcopy h2 {
-  font-size: 17px;
-  margin: 10px 0px;
-}
-.mywork {
+
+/* .mywork {
   color: #619c78;
   font-size: 17px;
-}
-.htmlcopy h3 {
-  margin: 10px;
-  opacity: 0.6;
 }
 
 @keyframes blink {
@@ -78,7 +72,43 @@
 }
 .blinking {
   animation: blink 1s infinite;
+} */
+.aboutMe {
+  line-height: 1.4;
+  font-size: 15px;
 }
-.main-page__me .htmlcopy div {
-  margin-bottom: 10px; /* Add margin at the bottom of each div element inside .htmlcopy */
+.aboutMe .constAboutMe {
+  color: #5a98c9;
+  font-size: 18px;
+}
+.aboutMe .consolelog {
+  font-size: 17px;
+  color: #61bde0;
+}
+.linkedin-button {
+  padding: 5px;
+  background-color: #5a98c9; /* LinkedIn brand color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  cursor: pointer;
+  margin: 3px 0px;
+}
+
+.linkedin-button:hover {
+  background-color: #005183; /* Darker shade of LinkedIn brand color on hover */
+}
+
+.mywork-button {
+  background-color: #609b78; /* LinkedIn brand color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.mywork-button:hover {
+  background-color: #005183; /* Darker shade of LinkedIn brand color on hover */
 }

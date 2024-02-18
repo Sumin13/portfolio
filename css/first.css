@@ -88,3 +88,19 @@
 #welcomeMessage {
   text-align: center;
 }
+.countdown {
+  text-align: center;
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+#didyou {
+  text-align: center;
+  font-weight: bold;
+}
+
+#answer {
+  text-align: center;
+}
+.did {
+  display: none;
+}
